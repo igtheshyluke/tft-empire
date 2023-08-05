@@ -1,0 +1,560 @@
+body {
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+     background-image: url(../images/bady-img.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: auto;
+     font-family: "Inter", sans-serif;
+   }
+   
+   h1 {
+     font-family: "Lilita One", cursive;
+     color: #ffffff;
+     font-size: 80px;
+     margin-bottom: 20px;
+   }
+   
+   p {
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 30px;
+   }
+   
+   a {
+     text-decoration: none !important;
+   }
+   ul {
+     padding: 0;
+     list-style: none;
+   }
+   
+   figure {
+     overflow: hidden;
+   }
+   
+   .green-btn {
+     background: #a5b03a;
+     padding: 12px 30px;
+     color: #ffffff !important;
+     font-size: 15px;
+     font-weight: 400;
+     border-radius: 5px;
+   }
+   .green-btn:hover {
+     background: white;
+     color: #a5b03a !important;
+   }
+   
+   /* header css start */
+   header {
+     padding: 20px 0px;
+   }
+   
+   .navbar-brand {
+     font-family: "Lilita One", cursive;
+     color: #ffffff;
+     font-size: 60px;
+   }
+   
+   .navbar-nav li a {
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 300;
+   }
+   
+   .navbar-nav li {
+     padding: 0px 15px;
+   }
+   .form-inline span a {
+     color: #ffffff;
+     font-size: 15px;
+   }
+   
+   .form-inline span img {
+     margin-right: 14px;
+     width: 25px;
+   }
+   
+   .form-inline span {
+     margin-right: 30px;
+   }
+   /* header css end */
+   
+   /* team-fight css start */
+   
+   .team-fight {
+     /* background-image: url(../images/1.png); */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 700px;
+     display: flex;
+     align-items: center;
+     position: relative;
+   }
+   /* team-fight css end */
+   
+   /* baker css start */
+   
+   .btn-div {
+     display: flex;
+     gap: 80px;
+     margin-top: 50px;
+   }
+   
+   .btn-div .green-btn {
+     height: 50px;
+   }
+.bottom-img {
+    animation: top-F linear 10s infinite;
+}
+
+.bottom-img figure img:hover {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+
+.bottom-img figure img {
+    transition: all ease 0.5s;
+}
+   .btn-div figure img {
+     height: 300px !important;
+     width: 100%;
+     animation: top-l linear 10s infinite;
+     transition: all ease 0.5s;
+   }
+.btn-div figure img:hover {
+    transition: all ease 0.5s;
+    transform: scale(1.1);
+}
+   .btn-div figure p {
+     margin-top: 30px;
+     font-size: 15px;
+   }
+   
+   .bottom-img p {
+     margin-top: 30px;
+     font-size: 12px;
+   }
+   /* baker css end */
+   /* choose-own css start */
+   
+   .choose-own {
+     padding-top: 50px;
+     padding-bottom: 70px;
+     overflow: hidden;
+   }
+   
+   .cookie h1 {
+     text-align: center;
+     margin-bottom: 50px;
+   }
+   
+   .slayer {
+     background: #ffffff;
+     padding: 20px;
+     margin: 0px 5px;
+     margin-top: 50px;
+   }
+   
+   .first-robote {
+     display: flex;
+     align-items: end;
+     gap: 20px;
+   }
+   
+   .first-robote img {
+     height: 250px;
+     width: 60% !important;
+     margin-top: -70px;
+     animation: top-F linear 6s infinite;
+   }
+   
+   .bottom-robote p {
+     color: #1c1c1c;
+     line-height: 22px;
+     font-weight: 500;
+   }
+   .bottom-robote {
+     margin-top: 10px;
+   }
+   .first-robote h4 {
+     font-size: 20px;
+     font-weight: 800;
+   }
+   /* choose-own css end */
+   
+   /* testimonial css start  */
+   section.Section-04 {
+     padding: 7rem 0;
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+   }
+   
+   .sliderBanner h1 {
+     text-align: center;
+     margin-bottom: 50px;
+   }
+   
+   .carouselNew-carousel .active.center .banner-content {
+     border-radius: 24px;
+     background-color: #090808;
+   }
+   
+   .carouselNew-carousel .active.center .banner-content {
+     opacity: 1;
+   }
+   
+   .carouselNew-carousel .banner-content {
+     opacity: 1;
+     padding: 20px 25px 60px;
+     padding-top: 2rem;
+     border-radius: 24px;
+     box-shadow: 12px 20.785px 52px 0px rgba(0, 0, 0, 0.03);
+     opacity: 0.1;
+   }
+   
+   .banner-content {
+     position: relative;
+     opacity: 1;
+     z-index: 0;
+     -webkit-transition: 0.4s ease all;
+     transition: 0.4s ease all;
+   }
+   
+   .Stars {
+     text-align: start;
+     display: flex;
+     margin-bottom: 20px;
+   }
+   
+   .Stars img {
+     width: unset !important;
+     text-align: center;
+   }
+   
+   .banner-content span {
+     color: #ffffff;
+     font-weight: 400;
+     margin-top: 0px;
+     display: block;
+     font-size: 18px;
+   }
+   
+   .banner-content h6 {
+     color: var(--grey-color);
+     font-size: 15px;
+     margin: 0;
+   }
+   
+   .owl-stage-outer {
+     overflow: unset !important;
+   }
+   
+   .owl-item.active.center .banner-content span {
+     color: #ffffff;
+     opacity: 1;
+   }
+   
+   .owl-item.active.center .banner-content h6 {
+     color: #b6b5b5;
+   }
+   .banner-content p {
+     text-align: start;
+     font-size: 15px;
+   }
+   .botom-slider {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+   }
+   
+   .botom-slider img {
+     width: 50px !important;
+     height: 50px !important;
+   }
+   .slider-span {
+     text-align: start;
+   }
+   .carouselNew-carousel.owl-theme .owl-dots .owl-dot span {
+        width: 30px !important;
+        height: 5px !important;
+        background: #8a8a8a !important;
+    }
+    
+    .carouselNew-carousel.owl-theme .owl-dots {
+        margin-top: 70px !important;
+    }
+    
+    .carouselNew-carousel.owl-theme .owl-dots .owl-dot.active span {
+        background: white !important;
+    }
+   /* testimonial css end  */
+   
+   /* back-img css start */
+   
+   .back-img {
+     background-image: url(../images/6.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 700px;
+     display: flex;
+     align-items: center;
+   }
+   .you-tube {
+     text-align: center;
+   }
+   /* back-img css end */
+   
+   /*contact css star*/
+   
+   .font-awesome i {
+     font-size: 20px;
+     padding: 0 6px;
+   }
+   .main-div {
+     display: flex;
+     margin-top: 100px;
+     margin-bottom: 32px;
+   }
+   .ancher-div span {
+     display: block;
+   }
+   .font-awesome {
+     margin-right: 15px;
+   }
+   .ancher-div h5 {
+     font-size: 25px;
+     color: white;
+   }
+   .ancher-div span a {
+     text-decoration: none;
+     color: #dddddd;
+   }
+   .ancher-div span {
+     font-size: 14px;
+     color: #dddddd;
+     margin-bottom: 3px;
+   }
+   .ancher-div spam a {
+     text-decoration: none;
+   }
+   .ancher-div p {
+     line-height: 22px;
+     font-size: 14px;
+     color: #dddddd;
+   }
+   section.section-one {
+     padding-top: 100px;
+     padding-bottom: 100px;
+   }
+   
+   .font-awesome figure img {
+     max-width: 100px;
+   }
+   .heretohelp h1 {
+     font-size: 65px;
+   }
+   
+   .heretohelp p {
+     color: #848484;
+   }
+   .beforediv {
+     margin-top: 50px;
+   }
+   
+   .beforediv:before {
+     content: "";
+     height: 1px;
+     width: 91%;
+     position: absolute;
+     background-color: #ffffff2e;
+     left: 0;
+     bottom: 75px;
+   }
+   
+   .beforediv svg {
+     padding: 50px 20px;
+     font-size: 23px;
+     color: #4f4e4f;
+     transition: 0.7s ease;
+   }
+   
+   .beforediv svg:hover {
+     color: white;
+   }
+   .form-row input {
+     background-color: #1b1a1a;
+     border: none;
+     border-radius: 0px;
+     padding: 25px 25px;
+     font-size: 15px;
+     font-weight: 600;
+     width: 90%;
+   }
+   .form-group-message input {
+     color: #848484;
+     margin-top: 30px;
+     font-size: 16px;
+     width: 95%;
+     padding-bottom: 195px;
+     padding-top: 25px;
+     border: none;
+     border-radius: 0px;
+     background-color: #1b1a1a;
+     font-weight: 600;
+   }
+   
+   button.btn.btn-primary {
+     margin-top: 45px;
+     padding: 20px 40px;
+     border: none;
+     border-radius: 0px;
+     color: black;
+     background-color: white;
+     font-size: 16px;
+     font-weight: 500;
+   }
+   form .green-btn {
+     border-radius: 0;
+     margin-top: 20px;
+   }
+   .beforediv i {
+     margin: 20px 20px;
+     cursor: pointer;
+   }
+   .beforediv i:hover {
+     color: #ffffff;
+   }
+   /*contact css end*/
+   
+   footer {
+     background: #000000;
+     padding-top: 150px;
+     padding-bottom: 50px;
+   }
+   
+   .logo-h h2 {
+     font-family: "Lilita One";
+     font-size: 50px;
+     color: #ffffff;
+     margin-bottom: 20px;
+   }
+   
+   .logo-h p {
+     color: #848484;
+     font-weight: 400;
+   }
+   
+   .logo-h h5 {
+     color: #ffffff;
+     font-weight: 300;
+     margin-bottom: 50px;
+   }
+   
+   .logo-h ul li {
+     padding: 7px 0;
+   }
+   
+   .logo-h ul li a {
+     color: #848484;
+     font-weight: 400;
+     font-size: 17px;
+   }
+   
+   .news-form .form-group {
+     display: flex;
+     align-items: center;
+     background: #1b1a1a;
+     padding: 15px 20px;
+   }
+   
+   .news-form .form-group input {
+     background: transparent;
+     border: none;
+   }
+   .flux {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   
+   .flux .beforediv {
+     margin: 0;
+   }
+   
+   .flux .beforediv:before {
+     display: none;
+   }
+   
+   .flux p {
+     margin: 0;
+   }
+   
+   .bootom-sec {
+     padding: 20px 0;
+   }
+   
+   .flux .beforediv i {
+     color: #ffffff;
+   }
+   
+   .logo-h ul li a:hover {
+     color: white;
+   }
+   
+   .robote-slider.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    overflow: hidden;
+}
+
+
+@keyframes top-l {
+  0% {
+    transform: translateX(0px);
+}
+50% {
+  transform: translateX(-30px);
+}
+  100% {
+  transform: translateX(0px);
+}
+}
+
+@keyframes top-F {
+  0% {
+    transform: translateY(0px);
+}
+50% {
+  transform: translateY(50px);
+}
+  100% {
+  transform: translateY(0px);
+}
+}
+
+.ttf {
+    position: absolute;
+    right: 25%;
+    top: 0%;
+}
+
+.ttf img {
+    width: 79%;
+}
+
+section.team-fight {}
+
+
+
+
+@media only screen and (max-width: 1440px){
+    .ttf {
+    right: 13%;
+    top: 0%;
+}
+}
